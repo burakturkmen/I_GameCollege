@@ -1,3 +1,4 @@
+@SmokeTest
 Feature: I-Game College Page
 
   Scenario: OnlineED page Test

@@ -1,3 +1,4 @@
+@SmokeTest
 Feature: GameJam Page
 
   Scenario: GameJam test

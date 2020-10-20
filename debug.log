@@ -2,3 +2,6 @@
 [1013/212958.037:ERROR:directory_reader_win.cc(43)] FindFirstFile: Sistem belirtilen yolu bulamiyor. (0x3)
 [1014/202228.289:ERROR:directory_reader_win.cc(43)] FindFirstFile: Sistem belirtilen yolu bulamiyor. (0x3)
 [1018/224614.129:ERROR:directory_reader_win.cc(43)] FindFirstFile: Sistem belirtilen yolu bulamiyor. (0x3)
+[1020/200617.571:ERROR:directory_reader_win.cc(43)] FindFirstFile: Sistem belirtilen yolu bulamýyor. (0x3)
+[1020/205047.808:ERROR:directory_reader_win.cc(43)] FindFirstFile: Sistem belirtilen yolu bulamýyor. (0x3)
+[1020/223650.685:ERROR:directory_reader_win.cc(43)] FindFirstFile: Sistem belirtilen yolu bulamýyor. (0x3)

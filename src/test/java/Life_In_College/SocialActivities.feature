@@ -1,3 +1,4 @@
+@SmokeTest
 Feature: Social Activities Page
 
   Scenario: Social Activities Test

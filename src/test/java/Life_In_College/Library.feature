@@ -1,3 +1,4 @@
+@SmokeTest
 Feature: Library Page
 
   Scenario: Library Page Test

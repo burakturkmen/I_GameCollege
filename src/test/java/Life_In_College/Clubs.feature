@@ -1,3 +1,4 @@
+@SmokeTest
 Feature: Clubs Page
 
   Scenario: Clubs Page Test

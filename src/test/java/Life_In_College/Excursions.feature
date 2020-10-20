@@ -1,3 +1,4 @@
+@SmokeTest
 Feature: Excursions Page
 
   Scenario: Excursions Page Test
