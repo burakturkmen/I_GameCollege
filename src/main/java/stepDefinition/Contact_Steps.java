@@ -71,6 +71,12 @@ public class Contact_Steps {
 
     @Then("^Click to Submit Button$")
     public void click_to_Submit_Button() throws Throwable {
+        contact_page.clickToSubmitButton();
 
+    }
+
+    @Then("^Verify Success Message$")
+    public void verifySuccessMessage() {
+        contact_page.verifySuccessMessage();
     }
 }

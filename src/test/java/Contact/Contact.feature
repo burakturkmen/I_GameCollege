@@ -17,3 +17,4 @@ Feature: Contact Page
     | Subject  | Test Automation                                        |
     | Message  | This is a Test Automation Massage. Please don't mind.  |
     Then Click to Submit Button
+    Then Verify Success Message

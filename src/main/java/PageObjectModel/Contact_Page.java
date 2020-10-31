@@ -1,5 +1,6 @@
 package PageObjectModel;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -51,6 +52,7 @@ public class Contact_Page extends Abstract {
         Assertion(FounderMemberName, "Tuncay Sevindik");
     }
 
+    //Contact Us! text doğrulama
     @FindBy(xpath = "//h2[contains(text(),'Contact Us!')]")
     private WebElement ContactUsText;
 
@@ -58,7 +60,23 @@ public class Contact_Page extends Abstract {
         Assertion(ContactText, "Contact");
     }
 
+    //Submit buttonuna tıkla
+    @FindBy(xpath = "//input[@value='Submit']")
+    private WebElement SubmitButton;
 
+    public void clickToSubmitButton(){
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("window.scrollBy(0,1000)");
+
+        clickFunction(SubmitButton);
+    }
+
+    @FindBy(xpath = "//div[@class='wpcf7-response-output wpcf7-display-none wpcf7-mail-sent-ok']")
+    private WebElement successText;
+
+    public void verifySuccessMessage(){
+        Assertion(successText, "Thank you for your message. It has been sent.");
+    }
 
 
 

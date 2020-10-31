@@ -12,7 +12,7 @@ import org.testng.annotations.AfterClass;
                 // to generate a extend report we need this plugin
         },
 
-        features = {"src/test/java/Contact"},
+        features = {"src/test/java"},
         glue = {"stepDefinition"},
         dryRun = false,
         tags = {"@SmokeTest"}
